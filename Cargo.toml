@@ -1,0 +1,13 @@
+[package]
+name = "image_rasterize2"
+version = "0.1.0"
+ 
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+# fltk = { version = "^1.4", features = ["fltk-bundled"] }
+[dependencies]
+tinyfiledialogs = "3.9.1"
+fltk = { git = "https://github.com/fltk-rs/fltk-rs" }
+image = "0.24.6"
+imageproc = "0.23.0"
+ 
